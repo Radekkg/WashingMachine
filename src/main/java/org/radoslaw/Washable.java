@@ -1,6 +1,6 @@
 package org.radoslaw;
 
-public interface Washing {
+public interface Washable {
     void setProgram(int programNumber);
     int getProgram();
     void nextProgram();
@@ -18,5 +18,4 @@ public interface Washing {
     int getDelay();
     void increaseDelay();
     void decreaseDelay();
-
 }
