@@ -86,11 +86,11 @@ public class WashingMachine implements Washable {
 
     @Override
     public void increaseDelay() {
-        setTemperature(getTemperature()+1);
+        setDelay(getDelay()+1);
     }
 
     @Override
     public void decreaseDelay() {
-        setTemperature(getTemperature()-1);
+        setDelay(getDelay()-1);
     }
 }
